@@ -1,0 +1,65 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+iframe {
+  width: 854px;
+  height: 480px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 40%;
+}
+
+/* Exemplo de responsividade */
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.logoFooter {
+  width: 60px;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.pontosTuristicos {
+  display: flex;
+}
+
+article {
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 25px;
+  margin: 1%;
+}
