@@ -1,12 +1,13 @@
 body {
-  font-family: "Arial", sans-serif;
+  background-color: #f06d30;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
-  background-color: #3498db;
+  background-color: #5b3420ce;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -42,22 +43,10 @@ img {
   width: 40%;
 }
 
-/* Exemplo de responsividade */
-@media only screen and (max-width: 600px) {
-  nav ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-}
-
 .logoFooter {
   width: 60px;
   margin-right: 1%;
   margin-bottom: 1%;
-}
-
-.pontosTuristicos {
-  display: flex;
 }
 
 article {
@@ -65,6 +54,30 @@ article {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   margin: 1%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.figuras {
+  text-align: center;
+  width: 700px;
+}
+
+.pontosTuristicos {
+  display: flex;
+}
+
+.mainContactos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.manuscrito {
+  text-align: center;
+  width: 350px;
 }
