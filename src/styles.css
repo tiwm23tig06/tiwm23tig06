@@ -187,16 +187,15 @@ input {
   background-color: #0056b3;
 }
 
-/* Adicionando uma media query para ajustar o tamanho do vídeo em dispositivos com largura de tela menor que 600 pixels (pode ajustar conforme necessário) */
 @media screen and (max-width: 600px) {
   iframe {
-    height: 220px; /* Torna a altura automática para manter a proporção do vídeo */
+    height: 220px;
   }
   article {
-    margin: 0 5px; /* Reduz a margem nas laterais para telas menores */
+    margin: 0 5px;
   }
   .manuscrito {
-    width: 100%; /* Ocupa 100% da largura do contêiner pai */
+    width: 100%;
   }
   .figuras {
     text-align: center;
