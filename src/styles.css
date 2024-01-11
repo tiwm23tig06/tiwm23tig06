@@ -1,9 +1,24 @@
 body {
-  background-color: #f06d30;
+  background-image: url(https://1.bp.blogspot.com/-G7EXKeGqKUQ/VVMdx8uiDiI/AAAAAAAAAOs/Bs-Uzj8jdYI/s1600/6112451379_8c7144fd12_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 header {
@@ -23,22 +38,22 @@ nav ul li {
 }
 
 main {
-  padding: 20px;
-  flex: 1;
+  text-align: center;
 }
 
 iframe {
-  width: 854px;
+  width: 850px;
   height: 480px;
 }
 
 footer {
-  background-color: #333;
+  background-color: #333333c8;
   color: #fff;
   text-align: center;
   padding: 10px;
   margin-top: auto;
 }
+
 img {
   width: 40%;
 }
@@ -55,10 +70,13 @@ article {
 
 p {
   font-size: 20px;
-  margin: 1%;
 }
 
 h1 {
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -71,13 +89,117 @@ h1 {
   display: flex;
 }
 
-.mainContactos {
+.mainInformacoes {
   display: flex;
   flex-direction: column;
   height: 100%;
+  text-align: center;
 }
 
 .manuscrito {
   text-align: center;
   width: 350px;
+}
+
+.links {
+  margin-top: 10%;
+}
+
+.historia {
+  display: flex;
+}
+
+.logoIPMaia {
+  width: 200px;
+}
+
+.creditos {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.mainInicio {
+  margin-top: 1%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+input {
+  text-align: center;
+}
+
+.formulario {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  background-color: #5b3420ce;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.confirmacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.confirmacao h2 {
+  text-align: center;
+}
+
+.confirmacao div {
+  max-width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.confirmacao p {
+  margin-bottom: 20px;
+}
+
+.confirmacao a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.confirmacao a:hover {
+  background-color: #0056b3;
+}
+
+/* Adicionando uma media query para ajustar o tamanho do vídeo em dispositivos com largura de tela menor que 600 pixels (pode ajustar conforme necessário) */
+@media screen and (max-width: 600px) {
+  iframe {
+    height: 220px; /* Torna a altura automática para manter a proporção do vídeo */
+  }
+  article {
+    margin: 0 5px; /* Reduz a margem nas laterais para telas menores */
+  }
+  .manuscrito {
+    width: 100%; /* Ocupa 100% da largura do contêiner pai */
+  }
+  .figuras {
+    text-align: center;
+    width: 100%;
+  }
 }

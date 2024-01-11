@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dados>
+  <pontoTuristico>
+    <nome>Igreja Matriz de Vila do Conde</nome>
+    <descricao>Um dos monumentos mais emblemáticos da cidade</descricao>
+    <localizacao>https://maps.app.goo.gl/hzq5kFxJPBehJNWG6</localizacao>
+  </pontoTuristico>
+  <pontoTuristico>
+    <nome>Aqueduto de Santa Clara</nome>
+    <descricao>Estende-se entre Terroso, na Póvoa de Varzim, e o Convento de Santa Clara em Vila do Conde</descricao>
+    <localizacao>https://maps.app.goo.gl/6htNDvoXfBtVTjRG8</localizacao>
+  </pontoTuristico> 
+  <pontoTuristico>
+    <nome>Nau Quinhentista</nome>
+    <descricao>Uma réplica de uma embarcação portuguesa da carreira do Atlântico norte de inícios do século XVI</descricao>
+    <localizacao>https://maps.app.goo.gl/trevzKMhiMgsmx1B7</localizacao>
+  </pontoTuristico> 
+  <pontoTuristico>
+    <nome>Igreja e Mosteiro de Santa Clara</nome>
+    <descricao>Foi um convento feminino instituído em 1318 e extinto no século XIX</descricao>
+    <localizacao>https://maps.app.goo.gl/YKGy6HaTP2kqeakn7</localizacao>
+  </pontoTuristico>  
+  <pontoTuristico>
+    <nome>Capela de Nossa Senhora da Guia</nome>
+    <descricao>Um local calmo e muito bonito, de onde é possível admirar a grandeza do Atlântico.</descricao>
+    <localizacao>https://maps.app.goo.gl/ZrSTfgE2kVj6Ex4H6</localizacao>
+  </pontoTuristico>
+</dados>

@@ -1,12 +1,14 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="dados">
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pontosTuristicos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="pontoTuristico" minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="pontoTuristico" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nome" type="xs:string"/>
                             <xs:element name="descricao" type="xs:string"/>
+                            <xs:element name="localizacao" type="xs:string"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
