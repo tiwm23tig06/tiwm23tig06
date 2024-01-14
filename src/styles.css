@@ -187,9 +187,10 @@ input {
   background-color: #0056b3;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   iframe {
     height: 220px;
+    width: 100%;
   }
   article {
     margin: 0 5px;
@@ -200,5 +201,54 @@ input {
   .figuras {
     text-align: center;
     width: 100%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-attachment: fixed;
+    display: flex;
+  }
+  .historia {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .pontosTuristicos {
+    display: block;
+  }
+  .inputForm {
+    width: 100%;
+  }
+  .logoIPMaia {
+    width: 100%;
+  }
+  .mainInformacoes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+  .mainInicio {
+    margin-top: 1%;
+  }
+  .links {
+    margin-top: 10%;
+  }
+  .creditos {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+  }
+  .formulario {
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 10px;
+    background-color: #5b3420ce;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
